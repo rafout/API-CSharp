@@ -1,0 +1,12 @@
+﻿
+namespace API.Application.DataContract.Request.User
+{
+    public sealed class CreateUserRequest
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public int ProfileId { get; set; }
+    }
+}
